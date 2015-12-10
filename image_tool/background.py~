@@ -1,0 +1,9 @@
+from PIL import Image
+
+def background(imgfile,r,c,h,w):
+    img = Image.open(imgfile).crop((c,r,c+w,r+h))
+    colors = sorted(img.get_colors(w*h))
+    return colors[-1][1]
+
+    
+

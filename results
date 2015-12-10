@@ -1,0 +1,49 @@
+?- verify('id11','color',white).
+
+from CSS:
+specificity = 103012
+color=white
+true
+true .
+
+?- verify('id11','color',black).
+
+from CSS:
+specificity = 103012
+color=white
+false, contradiction: white
+true .
+
+?- verify('id8','font-family',georgia).
+
+look for parent logo
+from CSS:
+specificity = 100008
+font-family=georgia
+true
+true .
+
+?- verify('id8','font-family',arial).
+
+look for parent logo
+from CSS:
+specificity = 100008
+font-family=georgia
+false, contradiction: georgia
+true .
+
+?- verify('logo','font-family',arial).
+
+from CSS:
+specificity = 100008
+font-family=georgia
+false, contradiction: georgia
+true .
+
+?- verify('logo','font-family',georgia).
+
+from CSS:
+specificity = 100008
+font-family=georgia
+true
+true .

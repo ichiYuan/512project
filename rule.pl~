@@ -23,14 +23,9 @@ verify(A,B,C):-
 	get_property(A,B,D),
 	(C\==D,write("\nfalse, contradiction: "),write(D);C==D,write("\ntrue")).
 
-get_img_properity:-
-	imgprop(A,B,C).
+img_verify
 
-img_verify(A,B,C):-
-	get_img_properity(A,B,D),
-	(C\==D,write("\nfalse, contradiction: "),write(D);C==D,write("\ntrue"))
-
-
+get_img_properity
 
 img_undistortion(A,B,C):-
 	imgprop(A,'contentwidth',D),
