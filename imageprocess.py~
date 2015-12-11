@@ -192,7 +192,7 @@ for line in open(sys.argv[-1]):
     bwidth = ip.borderwidth()[0]
     if bwidth > 0:
         print "imgprop('%s','borderwidth',%d)."%(w[0],bwidth)
-        print "imgprop('%s','bordercolor','%s')."%(w[0],str(ip.bordercolor()[:2]))
+        print "imgprop('%s','bordercolor','%s')."%(w[0],str(ip.bordercolor()))
 
     
             

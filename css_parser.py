@@ -1,7 +1,8 @@
 from tinycss.css21 import CSS21Parser
 import cssselect
+import sys
 
-css = open('style.css','r').read()
+css = open(sys.argv[-1],'r').read()
 styles = CSS21Parser().parse_stylesheet(css)
 
 for ruleIdx in range(len(styles.rules)):
@@ -27,6 +28,7 @@ for ruleIdx in range(len(styles.rules)):
 		specIdx = 0
 		print "rule(A%d,'%s',%s,%d):-" % (N,decl.name,decl_value,specs[specIdx])
 		for i in range(N):
+
 			selector_value = selectors[i].value
 
 			#property(id,tag,class,name,value)
@@ -64,3 +66,4 @@ for ruleIdx in range(len(styles.rules)):
 
 			if i == N-1:
 				print "    A%d = A%d." % (i,N)
+		

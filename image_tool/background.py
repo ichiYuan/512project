@@ -2,7 +2,7 @@ from PIL import Image
 from collections import Counter
 import time
 import random
-
+import sys
 def debug(obj):
     #print obj
     return obj
@@ -175,8 +175,8 @@ class ImageProcessor:
         return abs(Lpad - Rpad) < thres
         
         
-ip = ImageProcessor('screenshot.png')
-for line in open('region'):
+ip = ImageProcessor(sys.argv[-2])
+for line in open(sys.argv[-1]):
     w = line.split()
     if (int(w[3])*int(w[4])==0):
         continue
@@ -192,7 +192,7 @@ for line in open('region'):
     bwidth = ip.borderwidth()[0]
     if bwidth > 0:
         print "imgprop('%s','borderwidth',%d)."%(w[0],bwidth)
-        print "imgprop('%s','bordercolor','%s')."%(w[0],str(ip.bordercolor()))
+        print "imgprop('%s','bordercolor','%s')."%(w[0],str(ip.bordercolor()[:2]))
 
     
             

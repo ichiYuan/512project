@@ -64,5 +64,5 @@ for eleid in ids:
 f.close()
 driver.quit()
 
-#import shutil
-#shutil.move(outfile,'./test_tagged.html')
+import shutil
+shutil.move(outfile,'./test_tagged.html')

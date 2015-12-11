@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" id="id1">
+<head id="id2">
+    <meta charset="utf-8" id="id3"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" id="id4"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" id="id5"/>
+    
+
+    <title id="id6">Corporate 1</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" id="id7"/>
+
+    
+    <link href="css/custom.css" rel="stylesheet" id="id8"/>
+
+    
+    
+    
+
+</head>
+
+<body id="id9">
+
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="id10">
+        <div class="container" id="id11">
+            
+            <div class="navbar-header" id="id12">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" id="id13">
+                    <span class="sr-only" id="id14">Toggle navigation</span>
+                    <span class="icon-bar" id="id15"/>
+                    <span class="icon-bar" id="id16"/>
+                    <span class="icon-bar" id="id17"/>
+                </button>
+                <a class="navbar-brand" href="#" id="id18">
+                	<span class="glyphicon glyphicon-fire" id="id19"/> 
+                	Logo
+                </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav" id="id20">
+                    <li class="active" id="id21">
+                        <a href="#" id="id22">Home</a>
+                    </li>
+                    <li id="id23">
+                        <a href="#" id="id24">About</a>
+                    </li>
+                    <li id="id25">
+                        <a href="#" id="id26">Products</a>
+                    </li>
+					<li class="dropdown" id="id27">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="id28">Services <span class="caret" id="id29"/></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us" id="id30">
+							<li id="id31"><a href="#" id="id32">Engage</a></li>
+							<li id="id33"><a href="#" id="id34">Pontificate</a></li>
+							<li id="id35"><a href="#" id="id36">Synergize</a></li>
+						</ul>
+					</li>
+                </ul>
+
+				
+				<form class="navbar-form navbar-right" role="search" id="id37">
+					<div class="form-group" id="id38">
+						<input type="text" class="form-control" id="id39"/>
+					</div>
+					<button type="submit" class="btn btn-default" id="id40">Search</button>
+				</form>
+
+            </div>
+            
+        </div>
+        
+    </nav>
+
+	<div class="jumbotron feature" id="id41">
+		<div class="container" id="id42">
+			<h1 id="id43"><span class="glyphicon glyphicon-equalizer" id="id44"/> Dramatically Engage</h1>
+			<p id="id45">Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+			<p id="id46"><a class="btn btn-default" href="#" id="id47">Engage Now</a></p>
+		</div>
+	</div>
+
+    
+    <div class="container" id="id48">
+
+        
+        <div class="row" id="id49">
+            <div class="col-lg-12" id="id50">
+                <h1 class="page-header" id="id51">Superior Collaboration
+                    <small id="id52">Visualize Quality</small>
+                </h1>
+                <p id="id53">Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.</p>
+            </div>
+        </div>
+        
+
+        
+        <div class="row" id="id54">
+            <article class="col-md-4 article-intro" id="id55">
+                <a href="#" id="id56">
+                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="" id="id57"/>
+                </a>
+                <h3 id="id58">
+                    <a href="#" id="id59">Efficiently Unleash</a>
+                </h3>
+                <p id="id60">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            </article>
+            <article class="col-md-4 article-intro" id="id61">
+                <a href="#" id="id62">
+                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="" id="id63"/>
+                </a>
+                <h3 id="id64">
+                    <a href="#" id="id65">Completely Synergize</a>
+                </h3>
+                <p id="id66">Dramatically maintain clicks-and-mortar solutions without functional solutions. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+            </article>
+
+            <article class="col-md-4 article-intro" id="id67">
+                <a href="#" id="id68">
+                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="" id="id69"/>
+                </a>
+                <h3 id="id70">
+                    <a href="#" id="id71">Dynamically Procrastinate</a>
+                </h3>
+                <p id="id72">Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+            </article>
+        </div>
+        
+
+    </div>
+    
+	
+	<footer id="id73">
+		<div class="footer-blurb" id="id74">
+			<div class="container" id="id75">
+				<div class="row" id="id76">
+					<div class="col-sm-4 footer-blurb-item" id="id77">
+						<h3 id="id78"><span class="glyphicon glyphicon-fire" id="id79"/> Dynamically Procrastinate</h3>
+						<p id="id80">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+						<p id="id81"><a class="btn btn-default" href="#" id="id82">Procrastinate</a></p>
+					</div>
+					<div class="col-sm-4 footer-blurb-item" id="id83">
+						<h3 id="id84"><span class="glyphicon glyphicon-cloud-upload" id="id85"/> Efficiently Unleash</h3>
+						<p id="id86">Dramatically maintain clicks-and-mortar solutions without functional solutions. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. </p>
+						<p id="id87"><a class="btn btn-default" href="#" id="id88">Unleash</a></p>
+					</div>
+					<div class="col-sm-4 footer-blurb-item" id="id89">
+						<h3 id="id90"><span class="glyphicon glyphicon-leaf" id="id91"/> Completely Synergize</h3>
+						<p id="id92">Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-leveling customer service for state of the art customer service.</p>
+						<p id="id93"><a class="btn btn-default" href="#" id="id94">Synergize</a></p>
+					</div>
+
+				</div>
+					
+			</div>
+        </div>
+        
+        <div class="small-print" id="id95">
+        	<div class="container" id="id96">
+        		<p id="id97"><a href="#" id="id98">Terms &amp; Conditions</a> | <a href="#" id="id99">Privacy Policy</a> | <a href="#" id="id100">Contact</a></p>
+        		<p id="id101">Copyright &#169; Example.com 2015 </p>
+        	</div>
+        </div>
+	</footer>
+
+	
+    
+    <script src="js/jquery-1.11.3.min.js" id="id102"/>
+
+    
+    <script src="js/bootstrap.min.js" id="id103"/>
+	
+	
+	<script src="js/ie10-viewport-bug-workaround.js" id="id104"/>
+	
+	
+	<script src="js/holder.min.js" id="id105"/>
+	
+</body>
+
+</html>
