@@ -7,6 +7,11 @@ img_verify(id50,aspect_ratio,60).
 img_undistortion(id50, 300, 16).
 img_undistortion(id50, 280, 16).
 img_undistortion(id50, 295, 16).
-
-
-
+verify('id11','color',white).
+verify('id11','color',black).
+verify('id8','font-family',georgia).
+verify('id8','font-family',arial).
+verify('logo','font-family',arial).
+verify('logo','font-family',georgia).
+verify(id13,href,A).
+verify(id13,href,'#/about.html').

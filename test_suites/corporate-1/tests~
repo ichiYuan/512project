@@ -1,0 +1,11 @@
+verify(id94,href,A).
+verify(id94,href,'#').
+verify(id74,color,white).
+verify(id74,color,black).
+verify(id76,color,white).
+verify(id76,color,black).
+img_verify(id77,pos,center).
+img_verify(id77,pos,bottom).
+img_verify(id77,left_pad,0).
+img_verify(id77,left_pad,29).
+

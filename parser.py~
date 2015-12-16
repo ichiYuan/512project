@@ -1,6 +1,6 @@
 #tagging
 from lxml.html import parse
-import sys
+
 def traverse(root):
 	if root is None:
 		return
@@ -15,7 +15,7 @@ def traverse(root):
 			print "parent('"+str(root.attrib['id'])+"','"+str(child.attrib['id'])+"')."
 			traverse(child)
 
-tree = parse(sys.argv[-1])
+tree = parse("test_tagged.html")
 root = tree.getroot()
 traverse(root)
 root.tag
